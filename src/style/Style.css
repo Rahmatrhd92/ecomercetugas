@@ -1,0 +1,116 @@
+
+.MyBg {
+    background: url("../assets/images/beton.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .MyLg {
+    width: 504px;
+    margin: auto; 
+    height: 390px;
+    background-color: #09213B;
+    margin-top: 200px;
+    border-radius: 20px;
+    padding: 50px;
+  }
+
+  .MyLg img {
+    margin: auto;
+    padding: auto;
+    width: 68px;
+    margin-left: 160px;
+    
+  }
+
+  .MyLg button {
+    background-color: #F80000;
+    border-radius: 20px;
+    width: 82px;
+    margin: auto;
+    margin-left: 160px;
+  }
+
+  .myNav {
+    background-color: #09213B;
+  }
+
+  .MyRg {
+    background-color: #09213B;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .MyRgform {
+    width: 800px;
+    margin: auto; 
+    height: 500px;
+    background-color: #183758;
+    margin-top: 100px; 
+    margin-bottom: 300px;
+    border-radius: 20px;
+    padding: 50px;
+ 
+  }
+
+  .MyRgform button {
+    width: 205px;
+    margin: auto;
+    margin-left: 500px;
+  }
+
+  /* table */
+  .TbBg{
+    background-color: #183758;
+    height: 500px;
+    margin-bottom: 300px;
+    height: 100vh;
+  }
+
+  
+
+  .mYtable tr th {
+    background-color: #E31E26;
+  }
+
+  .MyUpform {
+    width: 1184px;
+    margin: auto; 
+    height: 600px;
+    /* background-color: #183758; */
+    margin-top: 90px;
+    border-radius: 20px;
+    padding: 50px;
+ 
+  }
+  .MyUpform button {
+    width: 205px;
+    margin: auto;
+    margin-left: 870px;
+  }
+
+  .myProduct {
+    margin-top: -400px; 
+    margin-bottom: 500px; 
+    margin-left: 290px;
+    /* width:200px; */
+  }
+
+ 
+  .myHero{
+    margin-top:-2000px; 
+    margin-bottom: 400px; 
+    margin-left: 300px;
+    margin-right: 30px; 
+  }
+
+  .mySidebar {
+    background-color: #09213B;
+    width: 200px;
+    height: 2000px;
+    margin-top: -20px;
+    padding: 50px;
+    margin-right:-50px;
+  }
+
+ 
