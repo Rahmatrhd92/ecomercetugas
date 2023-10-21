@@ -112,5 +112,43 @@
     padding: 50px;
     margin-right:-50px;
   }
+  .myModal {
+    width: 300px;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    bottom: 0;
+    top: 0;
+    
+    
+    
+  } 
+  .modal-container{
+    width: 443px;
+    height: 600px;
+    position: fixed; 
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    max-width: 30rem;
+    background-color: white;
+    border-radius: 0.5 rem;
+    box-shadow: 20px 20px 50px grey;
+    padding: 50px;
+  }
+
+  .ModalEdit {
+    width: 443px;
+    height: 700px;
+    position: fixed; 
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    max-width: 30rem;
+    background-color: #09213B;
+    border-radius: 0.5 rem;
+    box-shadow: 20px 20px 50px #000000;
+    padding: 50px;
+  }
 
  

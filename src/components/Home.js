@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import NavbarNav from "./NavbarNav";
 import Sidebar from "./Sidebar";
 import pictures from "../assets/images/lg.png";
@@ -8,12 +8,14 @@ import { Row, Col, Container } from "react-bootstrap";
 import banner from "../assets/images/product.png";
 import bannerHero from "../assets/images/banner hero home.jpg";
 import Hero from "./Hero";
-import Modal from "./Modal";
+
+
+
 
 
 const Home = () => {
 
-  const [openModal, setOpenmodal] = useState(false)
+
 
   return (
     <div>
@@ -29,10 +31,10 @@ const Home = () => {
             <hr />
               <Hero image={bannerHero} />
               <hr />
-                <Product open={setOpenmodal} image={banner} />
+                <Product image={banner} />
             </Col>
           </Row>
-          <Modal open={openModal} image={banner} />
+        {/* <myModal /> */}
         </Container>
       </div>
 
